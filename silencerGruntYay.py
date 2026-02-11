@@ -1017,7 +1017,7 @@ class App(tk.Tk):
     def play_done_sound(self):
         try:
             winsound.PlaySound(
-                r"C:\Users\provo\Desktop\Folder of Folders\streamstuff\Utilities\Python\VolumeThresholdVideo\gruntYay.mp4",
+                r"CHANGETOYOURDIRECTORY.mp4",
                 winsound.SND_FILENAME | winsound.SND_ASYNC
             )
         except Exception as e:
@@ -1032,3 +1032,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
